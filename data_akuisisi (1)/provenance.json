@@ -1,0 +1,505 @@
+{
+  "dibuat": "2026-11-17T12:00:09+00:00",
+  "oleh": "Kadek satya giri sardhula (2501010088)",
+  "user_agent": "TugasAkuisisiData/1.0 (Kadek satya giri sardhula; NIM 2501010088; kontak: mahasiswa@instiki.ac.id; keperluan akademik non-komersial)",
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "requests": "2.32.4",
+  "periode_cuaca": [
+    "2026-01-01",
+    "2026-09-30"
+  ],
+  "jumlah_file": 49,
+  "berkas": [
+    {
+      "file": "data/raw/Jumlah Akomodasi, Kamar, dan Tempat Tidur yang Tersedia pada Hotel Nonbintang, 2025 (1).csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 1245,
+      "md5": "9914ed7c3396084c83d700696033e7d8",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/Jumlah Akomodasi, Kamar, dan Tempat Tidur yang Tersedia pada Hotel Nonbintang, 2025.csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 1245,
+      "md5": "9914ed7c3396084c83d700696033e7d8",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/Jumlah_Akomodasi__Kamar__dan_Tempat_Tidur_yang_Tersedia_pada_Hotel_Nonbintang__2025.csv",
+      "sumber": "BPS",
+      "url": "ISI: URL halaman tabel 'Jumlah Akomodasi, Kamar, dan Tempat Tidur ... Hotel Nonbintang' di bps.go.id",
+      "tanggal_akses": "ISI: YYYY-MM-DD",
+      "lisensi": "Hak cipta BPS (ketentuan: https://www.bps.go.id/assets/term-of-use); atribusi wajib; non-komersial",
+      "ukuran_byte": 1245,
+      "md5": "9914ed7c3396084c83d700696033e7d8",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/Penerimaan dari Wisatawan Mancanegara, 2014 (1).csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 608,
+      "md5": "199d8ef74e7789fc222daff366e5a389",
+      "baris_data": 42.0
+    },
+    {
+      "file": "data/raw/Penerimaan dari Wisatawan Mancanegara, 2014.csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 608,
+      "md5": "199d8ef74e7789fc222daff366e5a389",
+      "baris_data": 42.0
+    },
+    {
+      "file": "data/raw/Penerimaan_dari_Wisatawan_Mancanegara__2014.csv",
+      "sumber": "BPS",
+      "url": "ISI: URL halaman tabel 'Penerimaan dari Wisatawan Mancanegara' di bps.go.id",
+      "tanggal_akses": "ISI: YYYY-MM-DD",
+      "lisensi": "Hak cipta BPS (ketentuan: https://www.bps.go.id/assets/term-of-use); atribusi wajib; non-komersial",
+      "ukuran_byte": 608,
+      "md5": "199d8ef74e7789fc222daff366e5a389",
+      "baris_data": 42.0
+    },
+    {
+      "file": "data/raw/Tingkat Penghunian Kamar pada Hotel Bintang, 2026 (1).csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 3085,
+      "md5": "8709bbace1a62c186e32069078169ebb",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/Tingkat Penghunian Kamar pada Hotel Bintang, 2026.csv",
+      "sumber": "(tidak dikenal)",
+      "url": "",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "?",
+      "ukuran_byte": 3085,
+      "md5": "8709bbace1a62c186e32069078169ebb",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/Tingkat_Penghunian_Kamar_pada_Hotel_Bintang__2026.csv",
+      "sumber": "BPS",
+      "url": "ISI: URL halaman tabel 'Tingkat Penghunian Kamar pada Hotel Bintang' di bps.go.id",
+      "tanggal_akses": "ISI: YYYY-MM-DD",
+      "lisensi": "Hak cipta BPS (ketentuan: https://www.bps.go.id/assets/term-of-use); atribusi wajib; non-komersial",
+      "ukuran_byte": 3085,
+      "md5": "8709bbace1a62c186e32069078169ebb",
+      "baris_data": 43.0
+    },
+    {
+      "file": "data/raw/openmeteo/aceh.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=5.5483&longitude=95.3238&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6637,
+      "md5": "11e2f21eba54fca0eca2564445bd47ed",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/bali.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.6705&longitude=115.2126&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6654,
+      "md5": "ecd6c248ca16e2cdb63656dd5de61857",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/banten.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-6.1201&longitude=106.1503&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6655,
+      "md5": "535d76529eee667307cb7f738ad28bbb",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/bengkulu.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-3.8004&longitude=102.2655&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6687,
+      "md5": "67db1d7fac5d5a31c926bf2a5d5184c1",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/di_yogyakarta.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-7.7956&longitude=110.3695&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6673,
+      "md5": "c00bf536a6a110a71295edc59dc2edec",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/dki_jakarta.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-6.2088&longitude=106.8456&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6667,
+      "md5": "e67bc8e626e8bebd87e4969ca213b1cc",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/gorontalo.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=0.5435&longitude=123.0568&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6635,
+      "md5": "968771dcf2ebc7e66cd57cb7b8f8837f",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/jambi.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-1.6101&longitude=103.6131&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6673,
+      "md5": "f9d87899d185a18135a29c0cb292580a",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/jawa_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-6.9175&longitude=107.6191&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6642,
+      "md5": "835d5dd76b11e01af97e1b9b5c55513e",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/jawa_tengah.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-6.9667&longitude=110.4167&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6645,
+      "md5": "b8e9c3ef1a612f859dada0b566c60620",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/jawa_timur.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-7.2575&longitude=112.7521&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6651,
+      "md5": "c6a2947037e5185842952bfe8747bb64",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kalimantan_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.0263&longitude=109.3425&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6664,
+      "md5": "ec766725494a85486af257f24f81f2bd",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kalimantan_selatan.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-3.4572&longitude=114.8103&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6681,
+      "md5": "232aa2afafeafbcb5e831ec5c1c0040b",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kalimantan_tengah.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-2.2161&longitude=113.9135&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6689,
+      "md5": "5c377c9100a05da4b57b00ed2f9f563f",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kalimantan_timur.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.5022&longitude=117.1536&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6681,
+      "md5": "06978b6c5ae638fd78c364164dfbccef",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kalimantan_utara.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=2.8379&longitude=117.3669&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6688,
+      "md5": "c370fe1756ab9e625bd79fb04961921f",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kep_bangka_belitung.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-2.1316&longitude=106.1169&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6642,
+      "md5": "4b6c68ba302b0e1cb1a37e94459edcfe",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/kep_riau.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=0.9186&longitude=104.4558&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6643,
+      "md5": "590168e733b688750784847949057509",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/lampung.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-5.4294&longitude=105.261&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6669,
+      "md5": "c46fdc51364c323d51dd2d20412c7f18",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/maluku.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-3.6954&longitude=128.1814&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6650,
+      "md5": "c1878769696745d3e2c7f356336b1a47",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/maluku_utara.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=0.7333&longitude=127.5667&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6674,
+      "md5": "bf9a1d59144048b413894a5dea102649",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/nusa_tenggara_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.5833&longitude=116.1167&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6661,
+      "md5": "61c03acfe7636119d0b2daca1d53f349",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/nusa_tenggara_timur.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-10.1772&longitude=123.607&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6665,
+      "md5": "58c95007302d6ce9e6fc22ff5315b8fa",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-2.5337&longitude=140.7181&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6677,
+      "md5": "7e8e415b579730883d76fe8ae220d410",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.8615&longitude=134.062&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6667,
+      "md5": "70cd17edcd14602a20eaf295497cf82e",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua_barat_daya.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.8762&longitude=131.2558&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6672,
+      "md5": "cefe10893996c09bbc940732b6588cbe",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua_pegunungan.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-4.095&longitude=138.94&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6677,
+      "md5": "fa2a62e237177e6fa26716d1be92adf0",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua_selatan.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.4932&longitude=140.4018&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6654,
+      "md5": "ec7cc9b3ae2b41436c61b0dc56ba7d21",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/papua_tengah.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-3.3667&longitude=135.4833&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6662,
+      "md5": "265d84232519c97922b6ee0fdb491c36",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/riau.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=0.5071&longitude=101.4478&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6669,
+      "md5": "02901131a05578ffa2ad55de7b92f10d",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sulawesi_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-2.6748&longitude=118.8886&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6632,
+      "md5": "7427e244d62d60af24723b628a3f8254",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sulawesi_selatan.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-5.1477&longitude=119.4327&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6665,
+      "md5": "adaa0c2626e65b78556bc80391986d4f",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sulawesi_tengah.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.8917&longitude=119.8707&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6653,
+      "md5": "34d8558d1aadfe098d21113f9397b0d1",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sulawesi_tenggara.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-3.9985&longitude=122.5129&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6669,
+      "md5": "e85c6eb1a7ef68a78ae555fb78d26d83",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sulawesi_utara.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=1.4748&longitude=124.8421&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6648,
+      "md5": "3284048957411e834e3e9c9bdf443e84",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sumatera_barat.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.9471&longitude=100.4172&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6682,
+      "md5": "c415738dd98bc8887435d795dc841c23",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sumatera_selatan.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-2.9761&longitude=104.7754&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6666,
+      "md5": "7e3e9dbbeb9cb8fb6b97c8c63b14f160",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/openmeteo/sumatera_utara.json",
+      "sumber": "Open-Meteo Historical Weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=3.5952&longitude=98.6722&start_date=2026-01-01&end_date=2026-09-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=auto",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY 4.0 (Open-Meteo); atribusi 'Weather data by Open-Meteo.com'",
+      "ukuran_byte": 6701,
+      "md5": "53fef3ca8734bdd6baa50247a6f34f8a",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/robots_id_wikipedia.txt",
+      "sumber": "robots.txt id.wikipedia.org",
+      "url": "https://id.wikipedia.org/robots.txt",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "Berkas konfigurasi situs (bukan data)",
+      "ukuran_byte": 15801,
+      "md5": "8dd94bf3d01cbb25e0af4e64c0485433",
+      "baris_data": NaN
+    },
+    {
+      "file": "data/raw/wikipedia_daftar_provinsi.html",
+      "sumber": "Wikipedia (HTML mentah)",
+      "url": "https://id.wikipedia.org/wiki/Daftar_provinsi_di_Indonesia?oldid=27951658",
+      "tanggal_akses": "2026-11-17",
+      "lisensi": "CC BY-SA 4.0 (Wikipedia); robots.txt dipatuhi",
+      "ukuran_byte": 87308,
+      "md5": "f88d96016facb1a3ffddacbf02ddb721",
+      "baris_data": NaN
+    }
+  ]
+}
